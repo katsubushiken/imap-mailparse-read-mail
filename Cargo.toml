@@ -1,0 +1,12 @@
+[package]
+name = "read-mail"
+version = "0.1.0"
+authors = ["katsubushiken <katsubushiken@sinx.jp>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+imap = "2.3.0"
+native-tls = "0.2.4"
+mailparse = "0.13.0"
